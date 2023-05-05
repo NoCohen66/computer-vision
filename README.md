@@ -4,7 +4,7 @@ The task at hand is to classify satellite images from the EuroSAT dataset into o
 
 <br>
 <div align="center">
-    <img src="docs/eurosat-rgb.png" width="100%" alt="unsupervised-outline-detection-logo" align="center" />
+    <img src="docs/eurosat-rgb.png" width="100%" alt="eurosat-labels" align="center" />
 </div>
 
 The EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and composed of 10 classes with 27,000 labeled and georeferenced samples.
