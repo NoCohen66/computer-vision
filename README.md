@@ -1,5 +1,7 @@
 # The Mechanisms Behind Image Classification Using a Pretrained CNN Model in High-Dimensional Spaces
 
+All the material is accessible from 🚀 [Notebook - **EUROSAT classification**](noemie_cohen_EUROSAT.ipynb).
+
 The task at hand is to classify satellite images from the EuroSAT dataset into one of ten classes, namely :
 
 <br>
