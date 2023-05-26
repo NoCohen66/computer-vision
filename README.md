@@ -11,15 +11,8 @@ The task at hand is to classify satellite images from the EuroSAT dataset into o
 
 The EuroSAT dataset is based on Sentinel-2 satellite images covering 13 spectral bands and composed of 10 classes with 27,000 labeled and georeferenced samples.
 
-To accomplish this task, a pre-trained Convolutional Neural Network (CNN) will be used with transfer learning techniques, which involves adapting an existing model to a new task by fine-tuning its parameters. In transfer learning, the pre-trained model acts as a feature extractor, where the early layers of the model learn general features that can be applied to various tasks, while the later layers learn task-specific features. By fine-tuning the pre-trained model's parameters, the model can be adapted to the new task with improved performance compared to training a new model from scratch. 
-
-It is often used in computer vision because it allows for effective training of deep learning models with:
-* limited amounts of labeled data
-* helps to overcome the problem of overfitting
-* avoids using resources to train from scratch
-* can improve the accuracy of the model compared to training from scratch
-
-The objective of this project is to **manually** identify the **key features** that are important for classifying satellite images into the ten different classes using transfer learning techniques. By understanding the features that are important for image classification in this domain, we can gain insights into the characteristics of each class and potentially improve the accuracy of the model.
+The objective of this project is to **manually** identify the **key features** that are important for classifying satellite images into the ten different classes using transfer learning techniques. By understanding the features that are important for image classification in this domain, we can gain insights into the characteristics of each class and potentially improve the accuracy of the model. 
+This notebook allows to have the first intuitions of explicability without using particular methods. The rest of the work will be to use tools to confirm these.
 
 
 # 📚 Table of contents: 
